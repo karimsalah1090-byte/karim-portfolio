@@ -1,89 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <meta charset="utf 8">
-        <title>welcome to my first page</title>
-        <meta name="description" content="my first page">
+        <meta charset="utf-8">
+        <title>karim's website</title>
+        <meta name="description" content="my personal webpage">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-                <h1>karim mohamed salah</h1>
+            <h1>Karim mohamed salah</h1>
         </header>
+        
         <nav>
             <a href="#home">home</a>
             <a href="#about">about</a>
-            <a href="#projects">project</a>
-            <a href="#contact-me">contact me</a>
+            <a href="#skills">skills</a>
+            <a href="#education">education</a>
+            <a href="#hobbies">hobbies</a>
+            <a href="#favorite-games">games</a>
+            <a href="#projects">projects</a>
+            <a href="#courses">courses</a>           
+            <a href="#contact-me">contact</a>
         </nav>
         <main>
+            <div class="photo">
+            <img src="3J6A1056.jpg" title="kimo's pic" width="300" alt="karim mohamed salah">
+            </div>
+
             <section id="home">
-                this is my only page
+                <h2>Welcome to my website</h2>
+                <p>My name is karim mohamed salah</p> 
             </section>
             <section id="about">
-                there's nothing about me
+                <h2>about me</h2>
+                <p>My name is Karim Mohamed Salah
+                    <br>
+                  I am interested in web development and programming.
+                </p>           
+            </section>
+            <section id="skills">
+                <h2>my skills</h2>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>python</li>
+                    <li>Java script</li>
+                </ol>
+            </section>
+            <section id="education">
+                <h2>My education</h2>
+                <h3>modern academy</h3>
+                <p><strong>degree</strong> :good</p>
+                <p><strong>graduation year</strong> :2012</p>
+            </section>
+            <section id="hobbies">
+                <h2>my hobbies</h2>
+                <ol>
+                    <li>reading books</li>
+                    <li>music</li>
+                    <li>street walking</li>
+                </ol>
+            </section>
+            <section id="favorite-games">
+                <h2>my favorite games</h2>
+                <ol>
+                    <li class="games">action
+                        <ul>
+                            <li>Blade</li>
+                            <li>Die hard</li>
+                            <li>Call of duty</li>
+                        </ul>
+                    </li>
+                    <li class="games">adventure
+                        <ul>
+                            <li>Crash</li>
+                            <li>Hollow knight</li>
+                            <li>Need for speed</li>
+                        </ul>
+                    </li>
+                    <li class="games">horror
+                        <ul>
+                            <li>Silent hill</li>
+                            <li>Resident evil</li>
+                            <li>The evil within</li>
+                        </ul>
+                    </li>
+                </ol>
             </section>
             <section id="projects">
-                i have many projects
-            </section>
-            <section id="contact-me">
-                <h2>contact-me</h2>
-                <a href="mailto:karimsalah1090@gmail.com">
-                    send me an email
-                </a>
-           </section>
-        </main>
-        <footer>
-            &copy; 2026 Karim Mohamed Salah
-        </footer>
+                <h2>my projects</h2>
+                <div id="flying">
+                    <h3>flying</h3>
+                    <p>project about how to fly</p>
+                    <a href="#">view project</a>
+                    <img src="22090054_10213386703089276_8158300220790144269_n.jpg" alt="flying-project">
+                </div>
+                <div id="cooking">
+                    <h3>cooking</h3>
+                    <p>project about how to cook</p>
+                    <a href="#">view project</a>
+                    <img src="169192229_10223202082187619_5112819359364683971_n.jpg" alt="cooking project">
+                </div>
+                <div id="music">
+                    <h3>music</h3>
+                    <p>project about how to be musician</p>
+                    <a href="#">view project</a>
+                    <img src="0.jpg" alt="music project">
 
-        <h1>karim salah page</h1>
-        <h2>about me</h2>
-        <p>
-            my name karim i want to be programmer this my hope
-        </p>
-        <h2>my skills</h2>
-        <ul>
-            <li>icdl</li>
-            <li>hard working</li>
-            <li>problem solving</li>
-        </ul>
-        <section>
-            <div>
-                <h2>education</h2>
-                <h3>modern academy</h3>
-                <p><strong>degree</strong> : managment information system</p>
-                <p><strong>graduation year</strong> (2012)</p>
-            </div>
-        </section>
-        <section>
-            <h2>my projects</h2>
-            <div>
-                <h3>flying</h3>
-                <p>project about how to fly</p>
-                <a href="#">view project</a>
-            </div>
-            <div>
-                <h3>cooking</h3>
-                <p>project about how to cook</p>
-                <a href="#">view project</a>
-            </div>
-            <br>
-            <div>
-                <h3>music</h3>
-                <p>project about how to be musician</p>
-                <a href="#">view project</a>
-            </div>
-        </section>
-        <img src="3J6A1056.jpg" alt="my photo" width="300">
-        <h2>my favorite website</h2>
-        <a href="http://www.google.com" title="go to google">google</a>
-        <a href="mailto:karimsalah1090@gmail.com">send me an email</a>
-        <h2>my hobbies</h2>
-        <ol>
-            <li><b>music</b></li>
-            <li><b>walking</b></li>
-            <li><b>reading</b></li>
-        </ol>
+                    <span>NEW</span>
+                </div>
+            </section>
+            <section id="courses">
+                <h2>my courses</h2>
+
+                <div class="courses">
+                    <h3>html</h3>
+                    <p class="completed">completed</p>
+                </div>
+                <div class="courses">
+                    <h3>ICDL</h3>
+                    <p class="completed">completed</p>
+                </div>
+                <div class="courses">
+                    <h3>English</h3>
+                    <p class="completed">completed</p>
+                </div>
+                <div class="courses">
+                    <h3>css</h3>
+                    <p class="progress">in progress</p>
+                </div>
+                <div class="courses">
+                    <h3>python</h3>
+                    <p class="progress">in progress</p>
+                </div>
+            </section>
+
+                 <!-- <table border="1">
+                <thead>
+                    <tr>
+                        <th>courses</th>
+                        <th>name</th>
+                        <th>degree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                         <td>html</td>
+                         <td>karim</td>
+                         <td>good</td>
+                    </tr>
+                    <tr>
+                        <td>python</td>
+                         <td>hossam</td>
+                         <td>good</td>
+                    </tr>
+                    <tr>
+                        <td>css</td>
+                        <td>sabry</td>
+                        <td>nice</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                    <th colspan="2">total</th>
+                    <th>100</th>
+                    </tr>
+                </tfoot>
+                </table> -->
+            <section id="contact-me">
+            <h2>contact me</h2> 
+            <a href="mailto:karimsalah1090@gmail.com"> send me an email</a>
+                
+            
+              
+            <form action="submit" method="post">
+                <div>
+                    <label for="name">name</label>
+                    <input name="name" type="text" id="name" placeholder="enter your name">
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input name="password" type="password" id="password" required minlength="8" placeholder="type your password">
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input name="email" id="email" type="email" required placeholder="enter your e-mail">
+                </div>
+                <div>
+                    <label for="subject">subject</label>
+                    <input name="subject" id="subject" type="text">
+                </div>
+                <div>
+                    <label for="country">country</label>
+                    <select name="country" id="country" required>
+                        <option value="" disabled selected>choose your country</option>
+                        <option value="usa">usa</option>
+                        <option value="uk">united kingdom</option>
+                        <option value="egypt">egypt</option>
+                        <option value="germany">germany</option>
+                    </select>
+                </div>
+                <div>
+                    <p>gender</p>
+                    <input name="gender" type="radio" id="male" value="male">
+                    <label for="male">male</label>
+                    <input name="gender" type="radio" id="female" value="female">
+                    <label for="female">female</label>
+                </div>
+                <!-- <div>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">I agree</label>
+                    <input type="checkbox" id="disagree">
+                    <label for="disagree">I disagree</label>
+                </div> -->
+                <div>
+                    <textarea id="message" name="message" rows="10" cols="30" placeholder="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+        </main>
+        <footer class="footer">
+            &copy; 2026 karim salah 
+        </footer>
     </body>
 </html>
