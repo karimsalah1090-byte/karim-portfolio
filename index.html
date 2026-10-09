@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <h1>Karim mohamed salah</h1>
+            <h1>Karim El Sedfy</h1>
         </header>
         
         <nav>
@@ -28,8 +28,9 @@
             </div>
 
             <section id="home">
-                <h2>Welcome to my website</h2>
-                <p>My name is karim mohamed salah</p> 
+                <h2>Hi, I'm karim El Sedfy </h2>
+                <p>I'm a web developer interested in building modern and responsive websites </p> 
+                <a href="#projects">View my projects</a>
             </section>
             <section id="about">
                 <h2>about me</h2>
@@ -56,9 +57,9 @@
             <section id="hobbies">
                 <h2>my hobbies</h2>
                 <ol>
-                    <li>reading books</li>
+                    <li>reading</li>
                     <li>music</li>
-                    <li>street walking</li>
+                    <li>travel</li>
                 </ol>
             </section>
             <section id="favorite-games">
@@ -88,27 +89,26 @@
                 </ol>
             </section>
             <section id="projects">
-                <h2>my projects</h2>
-                <div id="flying">
-                    <h3>flying</h3>
-                    <p>project about how to fly</p>
-                    <a href="#">view project</a>
-                    <img src="22090054_10213386703089276_8158300220790144269_n.jpg" alt="flying-project">
+                <h2>Projects</h2>
+                <div id="Game-manager">
+                    <h3>Game manager</h3>
+                    <p>A JavaScript project for managing game data and practicing DOM manipulation and user interactions.</p>
+                    <a href="https://github.com/karimsalah1090-byte/kimo-project"target="blank" rel="noopener noreferrer">view project</a>
+                    <!-- <img src="22090054_10213386703089276_8158300220790144269_n.jpg" alt="flying-project"> -->
                 </div>
-                <div id="cooking">
-                    <h3>cooking</h3>
-                    <p>project about how to cook</p>
+                <div id="Personal-portfolio">
+                    <h3>Personal portfolio </h3>
+                    <p>A personal portfolio website built with HTML and CSS to showcase my skills, education, projects, and interests.</p>
                     <a href="#">view project</a>
-                    <img src="169192229_10223202082187619_5112819359364683971_n.jpg" alt="cooking project">
+                    <!-- <img src="169192229_10223202082187619_5112819359364683971_n.jpg" alt="cooking project"> -->
                 </div>
-                <div id="music">
-                    <h3>music</h3>
+                <!-- <div id="Javascript projects">
+                    <h3>Coming soon</h3>
                     <p>project about how to be musician</p>
                     <a href="#">view project</a>
                     <img src="0.jpg" alt="music project">
-
                     <span>NEW</span>
-                </div>
+                </div> -->
             </section>
             <section id="courses">
                 <h2>my courses</h2>
@@ -173,32 +173,37 @@
                 
             
               
-            <form action="submit" method="post">
+            <form action="submit" method="post" novalidate>
                 <div>
                     <label for="name">name</label>
                     <input name="name" type="text" id="name" placeholder="enter your name">
+                    <p id="nameMessage"></p>
                 </div>
                 <div>
                     <label for="password">password</label>
-                    <input name="password" type="password" id="password" required minlength="8" placeholder="type your password">
+                    <input name="password" type="password" id="password" placeholder="type your password">
+                    <p id="passwordMessage"></p>
                 </div>
                 <div>
                     <label for="email">email</label>
-                    <input name="email" id="email" type="email" required placeholder="enter your e-mail">
+                    <input name="email" id="email" type="email"placeholder="enter your e-mail">
+                    <p id="emailMessage"></p>
                 </div>
                 <div>
                     <label for="subject">subject</label>
                     <input name="subject" id="subject" type="text">
+                    <p id="subjectMessage"></p>
                 </div>
                 <div>
                     <label for="country">country</label>
-                    <select name="country" id="country" required>
+                    <select name="country" id="country">
                         <option value="" disabled selected>choose your country</option>
                         <option value="usa">usa</option>
                         <option value="uk">united kingdom</option>
                         <option value="egypt">egypt</option>
                         <option value="germany">germany</option>
                     </select>
+                    <p id="countryMessage"></p>
                 </div>
                 <div>
                     <p>gender</p>
@@ -206,6 +211,7 @@
                     <label for="male">male</label>
                     <input name="gender" type="radio" id="female" value="female">
                     <label for="female">female</label>
+                    <P id="genderMessage"></P>
                 </div>
                 <!-- <div>
                     <input type="checkbox" id="agree">
@@ -218,11 +224,13 @@
                 </div>
                 <div>
                     <button type="submit">submit</button>
+                    <p id="successMessage"></p>
                 </div>
             </form>
         </main>
         <footer class="footer">
             &copy; 2026 karim salah 
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
