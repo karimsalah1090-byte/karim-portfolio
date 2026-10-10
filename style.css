@@ -24,6 +24,13 @@ header {
 body {
     color: var(--main-color);
     background-color:var(--background) ;
+     /* background:
+        radial-gradient(
+            circle at top,
+            rgba(128, 0, 128, 0.15),
+            transparent 50%
+        ),
+        #222 */
 }
 
 
@@ -711,11 +718,13 @@ section li:hover {
     text-decoration: none;
     background-color: orangered;
     color:black;
+    box-shadow: 0 0 20px purple;
     transition:0.3s ease
 }
 
 #projects div:hover a {
-    transform : translateY(-5px)
+    transform : translateY(-5px);
+    box-shadow: 0 0 15px cyan
 }
 #projects h2 {
     text-align: center;
